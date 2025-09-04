@@ -46,17 +46,10 @@ flowchart TD
     C --> D
     
     D --> E[Data Quality Checks]
-    E --> F[Feature Engineering]
-    F --> G[Data Aggregation]
+   
+    E --> F[Data Visualization Tool<br/>Power BI / Tableau]
     
-    G --> H[Data Visualization Tool<br/>Power BI / Tableau]
-    
-    H --> I[IPL Data Analysis Dashboard]
-    
-    I --> J[Key Insights & Metrics]
-    J --> K[Player Performance Analysis]
-    J --> L[Team Statistics]
-    J --> M[Match Outcome Trends]
+    F --> G[IPL Data Analysis Dashboard]
 ```
 
 ## Key Features
